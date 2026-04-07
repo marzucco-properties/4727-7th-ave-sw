@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4727 7th Ave SW, Naples FL 34119 — Marzucco Luxury Real Estate</title>
+<meta name="description" content="Custom-built 5-bedroom estate on 2.50 acres in Golden Gate Estates. 3,547 SF, pool & spa, 3-car garage, brand new 2025 roof. Listed by DeShawn Robinson, Marzucco Luxury Real Estate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ── Reset & Base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body { font-family: 'Inter', sans-serif; color: #2D2D2D; background: #fff; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+
+/* ── CSS Custom Properties ── */
+:root {
+  --navy: #1A2B4A;
+  --navy-dark: #0F1B30;
+  --gold: #B8960C;
+  --gold-light: #D4AF37;
+  --gold-pale: #F5EED6;
+  --white: #FFFFFF;
+  --off-white: #FAFAFA;
+  --light-gray: #F4F4F4;
+  --mid-gray: #E0E0E0;
+  --text: #2D2D2D;
+  --text-light: #6B7280;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+  --shadow-xl: 0 16px 48px rgba(0,0,0,0.14);
+  --radius: 8px;
+  --radius-lg: 12px;
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --max-width: 1200px;
+}
+
+/* ── Scroll Animations ── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+.animate { opacity: 0; animation-fill-mode: both; animation-duration: 0.7s; animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+.animate.fade-up { animation-name: fadeInUp; }
+.animate.fade-in { animation-name: fadeIn; }
+.animate.slide-left { animation-name: slideInLeft; }
+.animate.scale-in { animation-name: scaleIn; }
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+
+/* ── Navigation ── */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  background: rgba(26, 43, 74, 0.95); backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(184, 150, 12, 0.2);
+  transition: var(--transition);
+}
+.nav-inner {
+  max-width: var(--max-width); margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0 2rem; height: 64px;
+}
+.nav-brand {
+  font-family: 'Playfair Display', serif; color: var(--gold);
+  font-size: 1.1rem; font-weight: 600; letter-spacing: 0.5px;
+  text-decoration: none;
+}
+.nav-links { display: flex; gap: 2rem; list-style: none; }
+.nav-links a {
+  color: rgba(255,255,255,0.85); text-decoration: none;
+  font-size: 0.85rem; font-weight: 500; letter-spacing: 0.8px;
+  text-transform: uppercase; transition: var(--transition);
+  position: relative; padding: 4px 0;
+}
+.nav-links a::after {
+  content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px;
+  background: var(--gold); transition: var(--transition);
+}
+.nav-links a:hover { color: var(--gold); }
+.nav-links a:hover::after { width: 100%; }
+.nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
+.nav-toggle span { display: block; width: 24px; height: 2px; background: var(--white); margin: 5px 0; transition: var(--transition); }
+
+/* ── Hero ── */
+.hero {
+  position: relative; min-height: 100vh; display: flex; align-items: center;
+  justify-content: center; text-align: center;
+  background: linear-gradient(165deg, var(--navy-dark) 0%, var(--navy) 40%, #2A3F5F 100%);
+  overflow: hidden; padding: 120px 2rem 80px;
+}
+.hero::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 30% 50%, rgba(184,150,12,0.06) 0%, transparent 60%),
+              radial-gradient(ellipse at 70% 80%, rgba(184,150,12,0.04) 0%, transparent 50%);
+}
+.hero::after {
+  content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 120px;
+  background: linear-gradient(to top, var(--white), transparent);
+}
+.hero-content { position: relative; z-index: 1; max-width: 900px; }
+.hero-mls {
+  display: inline-block; font-size: 0.75rem; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--gold); margin-bottom: 1.5rem;
+  padding: 6px 16px; border: 1px solid rgba(184,150,12,0.3); border-radius: 20px;
+  animation: fadeIn 0.8s both;
+}
+.hero-address {
+  font-family: 'Playfair Display', serif; font-size: clamp(2.4rem, 5vw, 4rem);
+  color: var(--white); font-weight: 700; line-height: 1.15;
+  margin-bottom: 0.75rem; animation: fadeInUp 0.8s both 0.1s;
+}
+.hero-subtitle {
+  font-size: 1.05rem; color: var(--gold-light); letter-spacing: 3px;
+  text-transform: uppercase; font-weight: 400; margin-bottom: 2.5rem;
+  animation: fadeInUp 0.8s both 0.2s;
+}
+.hero-stats {
+  display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem 2.5rem;
+  margin-bottom: 2.5rem; animation: fadeInUp 0.8s both 0.3s;
+}
+.hero-stat {
+  color: rgba(255,255,255,0.9); font-size: 0.9rem; font-weight: 500;
+  letter-spacing: 1px;
+}
+.hero-stat-divider { color: rgba(184,150,12,0.5); }
+.hero-price {
+  font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3.2rem);
+  color: var(--white); font-weight: 700; margin-bottom: 0.5rem;
+  animation: fadeInUp 0.8s both 0.4s;
+}
+.hero-price-note {
+  font-size: 0.8rem; color: rgba(255,255,255,0.5); letter-spacing: 1px;
+  animation: fadeIn 0.8s both 0.6s;
+}
+.hero-cta {
+  display: inline-flex; align-items: center; gap: 8px; margin-top: 2rem;
+  padding: 14px 36px; background: var(--gold); color: var(--navy-dark);
+  text-decoration: none; font-weight: 600; font-size: 0.9rem;
+  letter-spacing: 1px; text-transform: uppercase; border-radius: 4px;
+  transition: var(--transition); animation: fadeInUp 0.8s both 0.5s;
+}
+.hero-cta:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(184,150,12,0.3); }
+
+/* ── Sections ── */
+.section { padding: 5rem 2rem; }
+.section-alt { background: var(--off-white); }
+.section-navy { background: var(--navy); color: var(--white); }
+.container { max-width: var(--max-width); margin: 0 auto; }
+.section-label {
+  display: inline-block; font-size: 0.7rem; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--gold); font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+.section-title {
+  font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 3vw, 2.4rem);
+  color: var(--navy); font-weight: 700; margin-bottom: 1rem; line-height: 1.25;
+}
+.section-navy .section-title { color: var(--white); }
+.section-divider {
+  width: 60px; height: 3px; background: var(--gold); margin-bottom: 2rem; border-radius: 2px;
+}
+.section-divider-center { margin-left: auto; margin-right: auto; }
+
+/* ── Overview ── */
+.overview-text {
+  font-size: 1.1rem; line-height: 1.9; color: var(--text); max-width: 850px;
+}
+.overview-text::first-line { font-weight: 500; }
+
+/* ── Highlights Grid ── */
+.highlights-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem; margin-top: 1rem;
+}
+.highlight-card {
+  background: var(--white); border-radius: var(--radius-lg); padding: 2rem 1.5rem;
+  text-align: center; box-shadow: var(--shadow-sm); border: 1px solid var(--mid-gray);
+  transition: var(--transition); position: relative; overflow: hidden;
+}
+.highlight-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--gold), var(--gold-light)); transform: scaleX(0);
+  transition: var(--transition); transform-origin: left;
+}
+.highlight-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.highlight-card:hover::before { transform: scaleX(1); }
+.highlight-icon {
+  width: 56px; height: 56px; margin: 0 auto 1rem; display: flex;
+  align-items: center; justify-content: center; border-radius: 50%;
+  background: var(--gold-pale); color: var(--gold); font-size: 1.5rem;
+}
+.highlight-card h3 {
+  font-family: 'Playfair Display', serif; font-size: 1.05rem;
+  color: var(--navy); margin-bottom: 0.4rem;
+}
+.highlight-card p { font-size: 0.82rem; color: var(--text-light); }
+
+/* ── Details Table ── */
+.details-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+  border: 1px solid var(--mid-gray); border-radius: var(--radius-lg);
+  overflow: hidden; background: var(--white);
+}
+.detail-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1rem 1.5rem; border-bottom: 1px solid var(--light-gray);
+  transition: var(--transition);
+}
+.detail-row:hover { background: var(--gold-pale); }
+.detail-label { font-size: 0.88rem; color: var(--text-light); font-weight: 500; }
+.detail-value { font-size: 0.92rem; color: var(--navy); font-weight: 600; text-align: right; }
+
+/* ── Accordion ── */
+.accordion { max-width: 850px; }
+.accordion-item {
+  border: 1px solid var(--mid-gray); border-radius: var(--radius); margin-bottom: 0.75rem;
+  overflow: hidden; background: var(--white); transition: var(--transition);
+}
+.accordion-item:hover { box-shadow: var(--shadow-sm); }
+.accordion-header {
+  width: 100%; display: flex; justify-content: space-between; align-items: center;
+  padding: 1.1rem 1.5rem; background: none; border: none;
+  cursor: pointer; font-family: 'Inter', sans-serif; font-size: 0.95rem;
+  font-weight: 600; color: var(--navy); text-align: left; transition: var(--transition);
+}
+.accordion-header:hover { color: var(--gold); }
+.accordion-icon {
+  width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;
+  border-radius: 50%; background: var(--light-gray); color: var(--navy);
+  font-size: 1.2rem; transition: var(--transition); flex-shrink: 0;
+}
+.accordion-item.active .accordion-icon { background: var(--gold); color: var(--white); transform: rotate(45deg); }
+.accordion-body {
+  max-height: 0; overflow: hidden; transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.accordion-item.active .accordion-body { max-height: 300px; }
+.accordion-content {
+  padding: 0 1.5rem 1.25rem; font-size: 0.9rem; color: var(--text-light); line-height: 1.8;
+}
+
+/* ── Title Matters ── */
+.title-items { display: flex; flex-direction: column; gap: 1rem; max-width: 850px; }
+.title-item {
+  display: flex; gap: 1.25rem; padding: 1.25rem 1.5rem;
+  background: var(--white); border-radius: var(--radius); border: 1px solid var(--mid-gray);
+  transition: var(--transition);
+}
+.title-item:hover { box-shadow: var(--shadow-sm); border-color: var(--gold); }
+.title-item-num {
+  font-family: 'Playfair Display', serif; font-size: 1.1rem;
+  color: var(--gold); font-weight: 700; flex-shrink: 0; min-width: 32px;
+}
+.title-item-body h4 { font-size: 0.95rem; color: var(--navy); margin-bottom: 0.35rem; }
+.title-item-body p { font-size: 0.85rem; color: var(--text-light); line-height: 1.7; }
+.title-ref {
+  display: inline-block; font-size: 0.75rem; color: var(--gold);
+  background: var(--gold-pale); padding: 2px 8px; border-radius: 4px;
+  margin-top: 0.4rem; font-weight: 500;
+}
+
+/* ── Timeline ── */
+.timeline { position: relative; max-width: 750px; margin: 0 auto; padding: 1rem 0; }
+.timeline::before {
+  content: ''; position: absolute; left: 50%; top: 0; bottom: 0;
+  width: 2px; background: linear-gradient(to bottom, var(--gold), var(--gold-light), var(--gold));
+  transform: translateX(-50%);
+}
+.timeline-item {
+  display: flex; align-items: center; margin-bottom: 1.5rem;
+  position: relative;
+}
+.timeline-item:nth-child(odd) { flex-direction: row; }
+.timeline-item:nth-child(even) { flex-direction: row-reverse; }
+.timeline-date {
+  width: 45%; text-align: right; padding-right: 2rem;
+  font-family: 'Playfair Display', serif; font-size: 1.4rem;
+  color: var(--gold); font-weight: 700;
+}
+.timeline-item:nth-child(even) .timeline-date { text-align: left; padding-right: 0; padding-left: 2rem; }
+.timeline-dot {
+  width: 16px; height: 16px; border-radius: 50%; background: var(--gold);
+  border: 3px solid var(--white); box-shadow: 0 0 0 2px var(--gold);
+  flex-shrink: 0; z-index: 1; position: absolute; left: 50%; transform: translateX(-50%);
+}
+.timeline-content {
+  width: 45%; padding-left: 2rem;
+  font-size: 0.88rem; color: var(--text); line-height: 1.6;
+}
+.timeline-item:nth-child(even) .timeline-content { padding-left: 0; padding-right: 2rem; text-align: right; }
+.timeline-permit {
+  display: inline-block; font-size: 0.7rem; color: var(--text-light);
+  background: var(--light-gray); padding: 2px 8px; border-radius: 4px;
+  margin-top: 0.25rem; font-family: monospace;
+}
+
+/* ── MEP Table ── */
+.mep-table { width: 100%; border-collapse: collapse; background: var(--white); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm); }
+.mep-table thead { background: var(--navy); }
+.mep-table th { padding: 1rem 1.25rem; text-align: left; color: var(--white); font-weight: 600; font-size: 0.82rem; letter-spacing: 0.5px; text-transform: uppercase; }
+.mep-table td { padding: 0.9rem 1.25rem; font-size: 0.88rem; border-bottom: 1px solid var(--light-gray); }
+.mep-table tr:last-child td { border-bottom: none; }
+.mep-table tr:hover td { background: var(--gold-pale); }
+.status-badge {
+  display: inline-block; padding: 3px 10px; border-radius: 20px;
+  font-size: 0.75rem; font-weight: 600;
+}
+.status-new { background: #D1FAE5; color: #065F46; }
+.status-excellent { background: #DBEAFE; color: #1E40AF; }
+.status-good { background: #FEF3C7; color: #92400E; }
+.status-active { background: #E0E7FF; color: #3730A3; }
+.status-issue { background: #FEE2E2; color: #991B1B; }
+.status-unknown { background: #F3F4F6; color: #4B5563; }
+
+/* ── Drive Times ── */
+.drive-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.75rem;
+}
+.drive-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0.9rem 1.25rem; background: var(--white); border-radius: var(--radius);
+  border: 1px solid var(--mid-gray); transition: var(--transition);
+}
+.drive-row:hover { border-color: var(--gold); box-shadow: var(--shadow-sm); }
+.drive-dest { font-size: 0.9rem; color: var(--text); font-weight: 500; }
+.drive-time { font-size: 0.85rem; color: var(--gold); font-weight: 600; }
+
+/* ── Schools ── */
+.schools-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+.school-card {
+  background: var(--white); border-radius: var(--radius-lg); padding: 2rem;
+  border: 1px solid var(--mid-gray); box-shadow: var(--shadow-sm);
+  transition: var(--transition); position: relative; overflow: hidden;
+}
+.school-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px;
+  background: linear-gradient(90deg, var(--navy), var(--gold));
+}
+.school-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.school-level {
+  font-size: 0.7rem; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--gold); font-weight: 600; margin-bottom: 0.5rem;
+}
+.school-card h3 { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: var(--navy); margin-bottom: 0.75rem; }
+.school-card p { font-size: 0.85rem; color: var(--text-light); line-height: 1.7; }
+.school-phone { color: var(--navy); font-weight: 600; }
+
+/* ── Documents ── */
+.docs-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.25rem;
+}
+.doc-card {
+  display: flex; align-items: center; gap: 1rem; padding: 1.25rem 1.5rem;
+  background: var(--white); border-radius: var(--radius); border: 1px solid var(--mid-gray);
+  text-decoration: none; color: var(--text); transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+.doc-card:hover { border-color: var(--gold); box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.doc-icon {
+  width: 48px; height: 48px; display: flex; align-items: center; justify-content: center;
+  background: #FEE2E2; border-radius: var(--radius); flex-shrink: 0;
+}
+.doc-icon svg { width: 24px; height: 24px; }
+.doc-info h4 { font-size: 0.88rem; color: var(--navy); font-weight: 600; margin-bottom: 0.2rem; line-height: 1.3; }
+.doc-info p { font-size: 0.72rem; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px; }
+
+/* ── Contact ── */
+.contact-inner {
+  display: flex; gap: 4rem; align-items: center; flex-wrap: wrap; justify-content: center;
+}
+.contact-info { flex: 1; min-width: 300px; }
+.contact-info h3 {
+  font-family: 'Playfair Display', serif; font-size: 1.6rem;
+  color: var(--white); margin-bottom: 0.35rem;
+}
+.contact-info .contact-role { font-size: 0.9rem; color: var(--gold-light); margin-bottom: 1.5rem; }
+.contact-detail { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem; }
+.contact-detail-icon {
+  width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
+  background: rgba(184,150,12,0.15); border-radius: 50%; color: var(--gold); flex-shrink: 0;
+}
+.contact-detail-text { font-size: 0.9rem; color: rgba(255,255,255,0.85); }
+.contact-detail-text a { color: var(--gold-light); text-decoration: none; transition: var(--transition); }
+.contact-detail-text a:hover { color: var(--gold); }
+.contact-license { font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-top: 1.25rem; letter-spacing: 0.5px; }
+.contact-cta {
+  flex: 0 0 auto;
+}
+.contact-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 16px 40px; background: var(--gold); color: var(--navy-dark);
+  text-decoration: none; font-weight: 700; font-size: 0.9rem;
+  letter-spacing: 1.5px; text-transform: uppercase; border-radius: 4px;
+  transition: var(--transition);
+}
+.contact-btn:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(184,150,12,0.3); }
+
+/* ── Footer ── */
+.footer {
+  background: var(--navy-dark); padding: 2.5rem 2rem; text-align: center;
+  border-top: 1px solid rgba(184,150,12,0.15);
+}
+.footer-stats {
+  font-size: 0.85rem; color: var(--gold); letter-spacing: 1.5px;
+  font-weight: 500; margin-bottom: 1rem;
+}
+.footer-disclaimer {
+  font-size: 0.75rem; color: rgba(255,255,255,0.4); font-style: italic;
+  line-height: 1.8; max-width: 700px; margin: 0 auto 1rem;
+}
+.footer-copy { font-size: 0.75rem; color: rgba(255,255,255,0.3); }
+
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  .nav-links { display: none; position: absolute; top: 64px; left: 0; right: 0; background: var(--navy); flex-direction: column; padding: 1rem 2rem; gap: 0.5rem; border-bottom: 2px solid var(--gold); }
+  .nav-links.active { display: flex; }
+  .nav-toggle { display: block; }
+  .hero { min-height: 90vh; padding: 100px 1.5rem 60px; }
+  .hero-address { font-size: 2rem; }
+  .hero-stats { gap: 0.5rem 1rem; }
+  .hero-stat { font-size: 0.78rem; }
+  .section { padding: 3.5rem 1.25rem; }
+  .details-grid { grid-template-columns: 1fr; }
+  .timeline::before { left: 20px; }
+  .timeline-item, .timeline-item:nth-child(even) { flex-direction: column; align-items: flex-start; padding-left: 50px; }
+  .timeline-dot { left: 20px; top: 5px; }
+  .timeline-date, .timeline-item:nth-child(even) .timeline-date { width: auto; text-align: left; padding: 0; font-size: 1.1rem; }
+  .timeline-content, .timeline-item:nth-child(even) .timeline-content { width: auto; padding: 0; text-align: left; }
+  .mep-table { display: block; overflow-x: auto; }
+  .contact-inner { flex-direction: column; gap: 2rem; text-align: center; }
+  .contact-detail { justify-content: center; }
+  .docs-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .hero-price { font-size: 1.8rem; }
+  .highlights-grid { grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+  .highlight-card { padding: 1.25rem 1rem; }
+  .schools-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-brand">MARZUCCO</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#tour">Virtual Tour</a></li>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#details">Details</a></li>
+      <li><a href="#disclosures">Disclosures</a></li>
+      <li><a href="#systems">Systems</a></li>
+      <li><a href="#documents">Documents</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <span class="hero-mls">MLS# 226005549</span>
+    <h1 class="hero-address">4727 7th Avenue SW<br>Naples, FL 34119</h1>
+    <p class="hero-subtitle">Golden Gate Estates &bull; Collier Woods</p>
+    <div class="hero-stats">
+      <span class="hero-stat">5 Bedrooms</span>
+      <span class="hero-stat-divider">|</span>
+      <span class="hero-stat">3.5 BA</span>
+      <span class="hero-stat-divider">|</span>
+      <span class="hero-stat">3,547 SF</span>
+      <span class="hero-stat-divider">|</span>
+      <span class="hero-stat">2.50 Acres</span>
+      <span class="hero-stat-divider">|</span>
+      <span class="hero-stat">No HOA</span>
+    </div>
+    <div class="hero-price">$1,299,900</div>
+    <p class="hero-price-note">Listed by Marzucco Luxury Real Estate</p>
+    <a href="#contact" class="hero-cta">Schedule a Private Showing &rarr;</a>
+  </div>
+</section>
+
+<!-- Virtual Tour -->
+<section class="section section-alt" id="tour" style="padding: 3rem 0;">
+  <div class="container">
+    <span class="section-label animate fade-up">Immersive Experience</span>
+    <h2 class="section-title animate fade-up delay-1">Virtual Tour &amp; Video</h2>
+    <div class="section-divider animate fade-up delay-2"></div>
+    <div class="animate fade-up delay-3" style="position: relative; width: 100%; max-width: 960px; margin: 0 auto; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 32px rgba(0,0,0,0.15);">
+      <iframe src="https://lacasatour.com/property/4727-7th-ave-sw-naples-fl-34119" style="width: 100%; height: 600px; border: none;" allowfullscreen loading="lazy"></iframe>
+    </div>
+    <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; color: var(--text-light);">Interactive tour powered by <a href="https://lacasatour.com/property/4727-7th-ave-sw-naples-fl-34119" target="_blank" style="color: var(--gold); text-decoration: none; font-weight: 500;">LaCasa Tour</a> &mdash; view property video, photo gallery, and neighborhood details</p>
+  </div>
+</section>
+
+<!-- Overview -->
+<section class="section" id="overview">
+  <div class="container">
+    <span class="section-label animate fade-up">Property Overview</span>
+    <h2 class="section-title animate fade-up delay-1">A Rare Estate Opportunity</h2>
+    <div class="section-divider animate fade-up delay-2"></div>
+    <p class="overview-text animate fade-up delay-3">4727 7th Avenue SW is a custom-built single-story CBS ranch situated on a fully uplands 2.50-acre estate parcel in the Collier Woods section of Golden Gate Estates. Built in 1999 by G. Gifford Construction, the home features 5 bedrooms, 3.5 bathrooms, and approximately 3,547 square feet of conditioned living area with a 3-car garage and screen-enclosed pool and spa. A brand-new 2025 TAMKO Heritage shingle roof, verified 2021 Rheem 5-ton HVAC condenser, 100% uplands certification, Estates zoning permitting horses, livestock, and a future guest house, and no active HOA combine to place this property in an increasingly rare category as developable acreage in Golden Gate Estates continues to be absorbed.</p>
+  </div>
+</section>
+
+<!-- Key Highlights -->
+<section class="section section-alt" id="highlights">
+  <div class="container">
+    <span class="section-label animate fade-up">Why This Property</span>
+    <h2 class="section-title animate fade-up delay-1">Key Highlights</h2>
+    <div class="section-divider animate fade-up delay-2"></div>
+    <div class="highlights-grid">
+      <div class="highlight-card animate scale-in delay-1">
+        <div class="highlight-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <h3>Brand New 2025 Roof</h3>
+        <p>TAMKO Heritage shingles, 110/130 mph rated</p>
+      </div>
+      <div class="highlight-card animate scale-in delay-2">
+        <div class="highlight-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <h3>Verified 2021 HVAC</h3>
+        <p>Rheem 5-Ton 16 SEER condenser</p>
+      </div>
+      <div class="highlight-card animate scale-in delay-3">
+        <div class="highlight-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3>100% Uplands</h3>
+        <p>Earth Tech Environmental certified</p>
+      </div>
+      <div class="highlight-card animate scale-in delay-4">
+        <div class="highlight-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h3>No HOA</h3>
+        <p>Estates zoning — horses, livestock, guest house OK</p>
+      </div>
+      <div class="highlight-card animate scale-in delay-1">
+        <div class="highlight-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h6a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V12z"/><path d="M14 4h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-6"/><path d="M14 4v18"/><path d="M2 12V6a2 2 0 0 1 2-2h4"/></svg>
+        </div>
+        <h3>Pool &amp; Spa</h3>
+        <p>Screen-enclosed with Pentair SuperFlo VS pump</p>
+      </div>
+      <div class="highlight-card animate scale-in delay-2">
+        <div class="highlight-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        </div>
+        <h3>3-Car Garage</h3>
+        <p>Oversized attached garage</p>
+      </div>
+      <div class="highlight-card animate scale-in delay-3">
+        <div class="highlight-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <h3>Automated Gates</h3>
+        <p>Ghost Controls TDS2 entry system</p>
+      </div>
+      <div class="highlight-card animate scale-in delay-4">
+        <div class="highlight-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Flood Zone X</h3>
+        <p>Minimal flood risk — no flood insurance required</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Property Details -->
+<section class="section" id="details">
+  <div class="container">
+    <span class="section-label animate fade-up">Full Specifications</span>
+    <h2 class="section-title animate fade-up delay-1">Property Details</h2>
+    <div class="section-divider animate fade-up delay-2"></div>
+    <div class="details-grid animate fade-up delay-3">
+      <div class="detail-row"><span class="detail-label">Address</span><span class="detail-value">4727 7th Ave SW, Naples, FL 34119</span></div>
+      <div class="detail-row"><span class="detail-label">Parcel ID</span><span class="detail-value">36531560006</span></div>
+      <div class="detail-row"><span class="detail-label">Year Built</span><span class="detail-value">1999</span></div>
+      <div class="detail-row"><span class="detail-label">Builder</span><span class="detail-value">G. Gifford Construction</span></div>
+      <div class="detail-row"><span class="detail-label">Construction</span><span class="detail-value">CBS (Concrete Block &amp; Stucco)</span></div>
+      <div class="detail-row"><span class="detail-label">Living Area</span><span class="detail-value">3,547 SF</span></div>
+      <div class="detail-row"><span class="detail-label">Lot Size</span><span class="detail-value">2.50 Acres</span></div>
+      <div class="detail-row"><span class="detail-label">Bedrooms</span><span class="detail-value">5</span></div>
+      <div class="detail-row"><span class="detail-label">Bathrooms</span><span class="detail-value">3 Full, 1 Half</span></div>
+      <div class="detail-row"><span class="detail-label">Garage</span><span class="detail-value">3-Car Attached</span></div>
+      <div class="detail-row"><span class="detail-label">Pool / Spa</span><span class="detail-value">Yes / Yes — Screen Enclosed</span></div>
+      <div class="detail-row"><span class="detail-label">Screen Enclosure</span><span class="detail-value">Yes</span></div>
+      <div class="detail-row"><span class="detail-label">Zoning</span><span class="detail-value">Estates (E)</span></div>
+      <div class="detail-row"><span class="detail-label">HOA</span><span class="detail-value">None</span></div>
+      <div class="detail-row"><span class="detail-label">Flood Zone</span><span class="detail-value">Zone X (Minimal Risk)</span></div>
+      <div class="detail-row"><span class="detail-label">List Price</span><span class="detail-value" style="color: var(--gold); font-size: 1.05rem;">$1,299,900</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Condition Disclosures -->
+<section class="section section-alt" id="disclosures">
+  <div class="container">
+    <span class="section-label animate fade-up">Transparency First</span>
+    <h2 class="section-title animate fade-up delay-1">Condition Disclosures</h2>
+    <div class="section-divider animate fade-up delay-2"></div>
+    <div class="accordion animate fade-up delay-3">
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
+          <span>&#9737; Storm Protection</span>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><div class="accordion-content">No impact glass, impact doors, or hurricane shutters. Original 1999 single-pane tempered glass. 2025 roof rated to 110/130 mph.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
+          <span>&#9832; Pool Heater</span>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><div class="accordion-content">AquaCal TropiCal T115 (112,000 BTU) is non-functional. Repair estimate $500–$1,000. All other pool equipment operational. Pool and spa fully usable.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
+          <span>&#9638; Perimeter Fencing</span>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><div class="accordion-content">Front entry automated via Ghost Controls TDS2 (2019). Portions of perimeter fencing partially down or overgrown.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
+          <span>&#10052; HVAC System</span>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><div class="accordion-content">Condenser: Rheem RA1660AJ1NB 5-Ton 16 SEER, May 2021. Air Handler: Trane XR, 2017. Both operational.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
+          <span>&#128196; Insurance Claims</span>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><div class="accordion-content">Two prior wind claims predating 2025 roof. Hurricane Irma ~2018–19 and roof leak ~2022–23. Original roof completely replaced 2025. No open claims.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
+          <span>&#9776; Driveway</span>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><div class="accordion-content">Minor uplift and surface cracking — cosmetic, common for 1999-era SWFL driveways.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
+          <span>&#128274; Security System</span>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><div class="accordion-content">Installed but not currently operational.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
+          <span>&#128167; Polybutylene Piping</span>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><div class="accordion-content">The Seller answered &ldquo;don&rsquo;t know&rdquo; on the Seller&rsquo;s Disclosure Statement. However, it is worth noting that polybutylene piping was manufactured and installed in U.S. residential construction from <strong>1978 through 1995</strong>, when production was permanently discontinued due to widespread failure claims. This home was <strong>built in 1999</strong> &mdash; four years after polybutylene was completely taken off the market. While this does not constitute a guarantee, the construction timeline falls well outside the era of polybutylene use. Buyers are still encouraged to have their home inspector verify pipe material during the inspection period.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Title Matters -->
+<section class="section" id="title">
+  <div class="container">
+    <span class="section-label animate fade-up">Recorded Encumbrances</span>
+    <h2 class="section-title animate fade-up delay-1">Title Matters</h2>
+    <div class="section-divider animate fade-up delay-2"></div>
+    <div class="title-items animate fade-up delay-3">
+      <div class="title-item">
+        <span class="title-item-num">4.2</span>
+        <div class="title-item-body">
+          <h4>Driveway Encroachment Easement</h4>
+          <p>Permanent recorded right that runs with the land. Grants driveway access across a portion of the neighboring parcel boundary.</p>
+          <span class="title-ref">Instrument 2655187 &bull; OR Book 2691, Page 3200 &bull; Recorded June 28, 2000</span>
+        </div>
+      </div>
+      <div class="title-item">
+        <span class="title-item-num">4.3</span>
+        <div class="title-item-body">
+          <h4>Oil, Gas &amp; Mineral Rights</h4>
+          <p>Standard Golden Gate Estates exception. Reserved mineral rights with no practical impact on surface use or development.</p>
+          <span class="title-ref">Deed Book 30, Page 86 &bull; Cross-ref OR Book 47, Page 139</span>
+        </div>
+      </div>
+      <div class="title-item">
+        <span class="title-item-num">4.4</span>
+        <div class="title-item-body">
+          <h4>Road Right-of-Way</h4>
+          <p>Standard 50-foot right-of-way along the south boundary for 7th Avenue SW. Common for all parcels fronting this road.</p>
+          <span class="title-ref">Standard plat dedication</span>
+        </div>
+      </div>
+      <div class="title-item">
+        <span class="title-item-num">4.5</span>
+        <div class="title-item-body">
+          <h4>Utility Easement</h4>
+          <p>30-foot perimeter and 60-foot bisecting utility easement. Standard plat-era encumbrance for underground and overhead utilities.</p>
+          <span class="title-ref">OR Book 104, Page 239</span>
+        </div>
+      </div>
+      <div class="title-item">
+        <span class="title-item-num">4.6</span>
+        <div class="title-item-body">
+          <h4>Restrictive Covenants</h4>
+          <p>Dormant 60+ years with no active homeowners association enforcement. Original plat-era covenants with no practical impact on current use.</p>
+          <span class="title-ref">OR Book 97, Page 492 &bull; Cross-ref OR Book 105, Page 73</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Systems Timeline -->
+<section class="section section-alt" id="systems">
+  <div class="container">
+    <div style="text-align:center;">
+      <span class="section-label animate fade-up">Investment History</span>
+      <h2 class="section-title animate fade-up delay-1" style="text-align:center;">Major Systems Timeline</h2>
+      <div class="section-divider section-divider-center animate fade-up delay-2"></div>
+    </div>
+    <div class="timeline animate fade-up delay-3">
+      <div class="timeline-item">
+        <div class="timeline-date">2026</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <strong>Fence Permit Closed</strong><br>
+          <span class="timeline-permit">CDP2004032944 &bull; March 27, 2026</span>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2025</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <strong>New TAMKO Heritage Roof</strong><br>Complete roof replacement — 65 squares, 110/130 mph rated
+          <br><span class="timeline-permit">PRRF20250415578 &bull; June 10, 2025</span>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2024</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <strong>Environmental Assessment</strong><br>Earth Tech Environmental — 100% uplands certification
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2021</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <strong>Rheem 5-Ton Condenser</strong><br>16 SEER replacement &bull; May 2021
+          <br><br><strong>Flexcon Pressure Tank</strong><br>PC66FRP well pressure tank &bull; December 2021
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2019</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <strong>Rheem 80-Gal Water Heater</strong>
+          <br><br><strong>Ghost Controls TDS2 Gate</strong>
+          <br><span class="timeline-permit">PRBD20190100059</span>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2017</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <strong>Trane XR Air Handler</strong>
+          <br><span class="timeline-permit">PRCN20160934714</span>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">1999</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <strong>Original Construction</strong><br>Custom-built by G. Gifford Construction<br>CBS single-story ranch on 2.50 acres
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MEP Systems Health -->
+<section class="section" id="mep">
+  <div class="container">
+    <span class="section-label animate fade-up">System Condition Report</span>
+    <h2 class="section-title animate fade-up delay-1">MEP Systems Health</h2>
+    <div class="section-divider animate fade-up delay-2"></div>
+    <div class="animate fade-up delay-3" style="overflow-x:auto;">
+      <table class="mep-table">
+        <thead>
+          <tr><th>System</th><th>Year / Status</th><th>Est. Replacement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Roof</strong> — TAMKO Heritage (65 sq)</td><td><span class="status-badge status-new">2025 — New</span></td><td>$25,000</td></tr>
+          <tr><td><strong>HVAC Condenser</strong> — Rheem 5T/16 SEER</td><td><span class="status-badge status-excellent">May 2021 — Excellent</span></td><td>$4,500–$6,500</td></tr>
+          <tr><td><strong>HVAC Air Handler</strong> — Trane XR</td><td><span class="status-badge status-good">2017 — Good</span></td><td>$1,500–$3,000</td></tr>
+          <tr><td><strong>Water Heater</strong> — Rheem 80-Gal</td><td><span class="status-badge status-good">2019 — Good</span></td><td>$2,095–$2,983</td></tr>
+          <tr><td><strong>Well Pressure Tank</strong> — Flexcon PC66FRP</td><td><span class="status-badge status-excellent">Dec 2021 — Excellent</span></td><td>$373–$1,077</td></tr>
+          <tr><td><strong>Water Softener</strong> — Ion-Exchange ~48K</td><td><span class="status-badge status-active">Unknown — Active</span></td><td>$749–$2,200</td></tr>
+          <tr><td><strong>Pool Pump</strong> — Pentair SuperFlo VS</td><td><span class="status-badge status-excellent">Unknown — Excellent</span></td><td>$1,350–$1,600</td></tr>
+          <tr><td><strong>Pool Heater</strong> — AquaCal T115</td><td><span class="status-badge status-issue">Non-Functional</span></td><td>$500–$1,000 repair</td></tr>
+          <tr><td><strong>Irrigation</strong> — Rain Bird ESP-Me 10-zone</td><td><span class="status-badge status-active">Unknown — Active</span></td><td>$303–$440</td></tr>
+          <tr><td><strong>Gate</strong> — Ghost Controls TDS2</td><td><span class="status-badge status-good">2019 — Operational</span></td><td>$769–$849</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Location & Drive Times -->
+<section class="section section-alt" id="location">
+  <div class="container">
+    <span class="section-label animate fade-up">Neighborhood</span>
+    <h2 class="section-title animate fade-up delay-1">Location &amp; Drive Times</h2>
+    <div class="section-divider animate fade-up delay-2"></div>
+    <div class="drive-grid animate fade-up delay-3">
+      <div class="drive-row"><span class="drive-dest">Founders Square</span><span class="drive-time">5–7 min</span></div>
+      <div class="drive-row"><span class="drive-dest">Publix at Vanderbilt Beach Rd</span><span class="drive-time">7–10 min</span></div>
+      <div class="drive-row"><span class="drive-dest">I-75 Exit 101</span><span class="drive-time">10–12 min</span></div>
+      <div class="drive-row"><span class="drive-dest">Vineyards Country Club</span><span class="drive-time">10–12 min</span></div>
+      <div class="drive-row"><span class="drive-dest">Mercato</span><span class="drive-time">18–22 min</span></div>
+      <div class="drive-row"><span class="drive-dest">Clam Pass Beach &amp; Boardwalk</span><span class="drive-time">18–22 min</span></div>
+      <div class="drive-row"><span class="drive-dest">Vanderbilt Beach</span><span class="drive-time">22–28 min</span></div>
+      <div class="drive-row"><span class="drive-dest">5th Avenue South / Old Naples</span><span class="drive-time">25–30 min</span></div>
+      <div class="drive-row"><span class="drive-dest">RSW Airport</span><span class="drive-time">35–40 min</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Schools -->
+<section class="section" id="schools">
+  <div class="container">
+    <span class="section-label animate fade-up">Education</span>
+    <h2 class="section-title animate fade-up delay-1">School Assignments</h2>
+    <div class="section-divider animate fade-up delay-2"></div>
+    <div class="schools-grid animate fade-up delay-3">
+      <div class="school-card">
+        <div class="school-level">Elementary School</div>
+        <h3>Big Cypress Elementary</h3>
+        <p>12025 Collier Blvd, Naples, FL 34119<br><span class="school-phone">(239) 377-8000</span></p>
+      </div>
+      <div class="school-card">
+        <div class="school-level">Middle School</div>
+        <h3>Oakridge Middle</h3>
+        <p>14975 Collier Blvd, Naples, FL 34119<br><span class="school-phone">(239) 377-4600</span></p>
+      </div>
+      <div class="school-card">
+        <div class="school-level">High School</div>
+        <h3>Gulf Coast High</h3>
+        <p>7878 Shark Way, Naples, FL 34119<br><span class="school-phone">(239) 377-1600</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Documents -->
+<section class="section section-alt" id="documents">
+  <div class="container">
+    <span class="section-label animate fade-up">Due Diligence</span>
+    <h2 class="section-title animate fade-up delay-1">Documents &amp; Downloads</h2>
+    <div class="section-divider animate fade-up delay-2"></div>
+    <div class="docs-grid animate fade-up delay-3">
+      <a href="/docs/Buyer_Information_Package_v2.3.pdf" class="doc-card">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="#DC2626"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+        </div>
+        <div class="doc-info">
+          <h4>Comprehensive Buyer Information Package v2.3</h4>
+          <p>PDF Document</p>
+        </div>
+      </a>
+      <a href="/docs/Seller_Disclosures.pdf" class="doc-card">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="#DC2626"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+        </div>
+        <div class="doc-info">
+          <h4>Seller's Disclosure Statement</h4>
+          <p>PDF Document</p>
+        </div>
+      </a>
+      <a href="/docs/Flood_Insurance_Disclosure.pdf" class="doc-card">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="#DC2626"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+        </div>
+        <div class="doc-info">
+          <h4>Flood Insurance Disclosure</h4>
+          <p>PDF Document</p>
+        </div>
+      </a>
+      <a href="/docs/Driveway_Easement_2655187.pdf" class="doc-card">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="#DC2626"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+        </div>
+        <div class="doc-info">
+          <h4>Driveway Easement (Instrument 2655187)</h4>
+          <p>PDF Document</p>
+        </div>
+      </a>
+      <a href="/docs/Collier_County_Records_Permits.pdf" class="doc-card">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="#DC2626"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+        </div>
+        <div class="doc-info">
+          <h4>Collier County Records &amp; Permits</h4>
+          <p>PDF Document</p>
+        </div>
+      </a>
+      <a href="/docs/Environmental_Assessment_100_Uplands.pdf" class="doc-card">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="#DC2626"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+        </div>
+        <div class="doc-info">
+          <h4>Environmental Assessment (100% Uplands)</h4>
+          <p>PDF Document</p>
+        </div>
+      </a>
+      <a href="/docs/2025_Roof_Documentation.pdf" class="doc-card">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="#DC2626"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+        </div>
+        <div class="doc-info">
+          <h4>2025 Roof Documentation</h4>
+          <p>PDF Document</p>
+        </div>
+      </a>
+      <a href="/docs/Title_Commitment.pdf" class="doc-card">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="#DC2626"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+        </div>
+        <div class="doc-info">
+          <h4>Title Commitment</h4>
+          <p>PDF Document</p>
+        </div>
+      </a>
+      <a href="/docs/Original_Builder_Plans.pdf" class="doc-card">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="#DC2626"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+        </div>
+        <div class="doc-info">
+          <h4>Original Builder Plans</h4>
+          <p>PDF Document</p>
+        </div>
+      </a>
+      <a href="/docs/Survey.pdf" class="doc-card">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="#DC2626"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+        </div>
+        <div class="doc-info">
+          <h4>Survey</h4>
+          <p>PDF Document</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section section-navy" id="contact">
+  <div class="container">
+    <div class="contact-inner animate fade-up">
+      <div class="contact-info">
+        <span class="section-label" style="color: var(--gold-light);">Your Listing Agent</span>
+        <h3>DeShawn Robinson</h3>
+        <p class="contact-role">Managing Broker | Partner</p>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="contact-detail-text">Marzucco Luxury Real Estate<br>400 5th Ave South, Unit 305<br>Naples, FL 34102</div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <div class="contact-detail-text"><a href="tel:+12397765194">(239) 776-5194</a></div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div class="contact-detail-text"><a href="mailto:Dluxnaples@gmail.com">Dluxnaples@gmail.com</a></div>
+        </div>
+        <p class="contact-license">FL License #BK3335121</p>
+      </div>
+      <div class="contact-cta">
+        <a href="tel:+12397765194" class="contact-btn">Call Now &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p class="footer-stats">Over $1.8 Billion in Sales &bull; 5 Offices in Florida &bull; 400+ Sales Associates</p>
+  <p class="footer-disclaimer">Information herein is believed accurate but not guaranteed. Buyer should independently verify all material facts, measurements, and conditions. This is not intended to solicit properties currently listed by other brokerages.</p>
+  <p class="footer-copy">&copy; 2026 Marzucco Luxury Real Estate. All rights reserved.</p>
+</footer>
+
+<script>
+// Mobile nav toggle
+document.getElementById('navToggle').addEventListener('click', function() {
+  document.getElementById('navLinks').classList.toggle('active');
+});
+// Close mobile nav on link click
+document.querySelectorAll('.nav-links a').forEach(function(link) {
+  link.addEventListener('click', function() {
+    document.getElementById('navLinks').classList.remove('active');
+  });
+});
+// Intersection Observer for scroll animations
+if ('IntersectionObserver' in window) {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.style.animationPlayState = 'running';
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.animate').forEach(function(el) {
+    el.style.animationPlayState = 'paused';
+    observer.observe(el);
+  });
+}
+</script>
+</body>
+</html>
